@@ -8,6 +8,6 @@ export function formatarMoeda(valor: number): string {
     return valor.toLocaleString("pt-BR", {style: "currency", currency: "BRL"});
 }
 
-export function formataData(data: Date): string {
+export function formatarData(data: Date): string {
     return data.toLocaleString("pt-BR");
 }
