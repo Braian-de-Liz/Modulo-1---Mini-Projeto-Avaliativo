@@ -40,7 +40,7 @@ export type ItemDetalhado = ItemCarrinho & {
 
     nome: string;
     precoUnitario: number;
-    subtital: number;
+    subtotal: number;
 
 };
 
