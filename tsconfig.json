@@ -9,5 +9,5 @@
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true
 },
-"inbclude": ["src/**/*"]
+"include": ["src/**/*"]
 }
