@@ -4,10 +4,13 @@ export type Produto = {
 
     id:number;
     nome:string;
-    categoria:string;// preço unitário em reais
+    categoria:string;
+    preco: number;// preço unitário em reais
     estoque:number; // quantidade disponivel
 
 };
+
+export type DadosProduto = Omit<Produto, "id">;
 
 export type Cliente = {
 
