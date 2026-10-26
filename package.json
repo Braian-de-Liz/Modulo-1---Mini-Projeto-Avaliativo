@@ -1,0 +1,16 @@
+{
+  "name": "miniprojeto-ecommerce",
+  "version": "1.0.0",
+  "description": "Sistema de gerenciamento de e-commerce em TypeScript (mini-projeto avaliativo)",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsc && node dist/main.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0"
+  }
+}
